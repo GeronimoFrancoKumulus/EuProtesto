@@ -17,7 +17,7 @@ const app = express();
 app.use(express.json());
 app.use(routes);
 
-server.listen(3333, function () {
+server.listen(3000, function () {
     console.log('escutando', server.name);
 });
 //app.listen(3333);
